@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 43 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="telekom-logo.svg" transform="matrix(0.483333,0,0,0.483333,21.5,14.5)">
+        <g transform="matrix(1,0,0,1,-30,-30)">
+            <rect x="0" y="0" width="60" height="60" style="fill:rgb(226,0,116);"/>
+            <path d="M22.67,35.28L16,35.28L16,28.68L22.67,28.68L22.67,35.28ZM16,13.5L16,24.72L18,24.72L18,24.39C18,19.11 21,15.81 26.67,15.81L27,15.81L27,39.57C27,42.87 25.67,44.19 22.33,44.19L21.33,44.19L21.33,46.5L38.66,46.5L38.66,44.19L37.66,44.19C34.33,44.19 32.99,42.87 32.99,39.57L32.99,15.81L33.32,15.81C38.99,15.81 41.99,19.11 41.99,24.39L41.99,24.72L43.99,24.72L43.99,13.5L16,13.5ZM37.33,35.28L44,35.28L44,28.68L37.33,28.68L37.33,35.28Z" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>
