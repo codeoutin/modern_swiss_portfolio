@@ -30,8 +30,8 @@ const Footer = () => {
             Copyright © 2024 Patrick Steger
           </p>
           <div className="text-xs flex flex-row gap-4 text-gray-400">
-            <Link href="/impressum">Impressum</Link>
-            <Link href="/datenschutz">Datenschutzerklärung</Link>
+            <a href="/impressum">Impressum</a>
+            <a href="/datenschutz">Datenschutzerklärung</a>
           </div>
         </div>
 

@@ -92,15 +92,15 @@ export const navItems = [
       des: "A Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg", "/mong.svg", "/c.svg"],
-      link: "https://geniaro-b7ovkg3fw-codeoutins-projects.vercel.app/ai/templates",
+      link: "/r/geniaro",
     },
     {
       id: 4,
-      title: "Microservice Logistic Platform",
+      title: "Mentor Program",
       des: "I'm teaching programming languages, web development and other skills to beginners and professionals",
       img: "/p4.svg",
-      iconLists: ["/react.svg", "/laravel.svg", "/ts.svg", "/vue.svg", "/git.svg"],
-      link: "https://www.superprof.de/software-engineer-mit-jahren-ausbildung-jahren-berufserfahrung-gibt-programmierunterricht-mentoring-anfanger-und.html",
+      iconLists: ["/re.svg", "/laravel.svg", "/js.svg", "/ts.svg", "/vue.svg", "/git.svg"],
+      link: "/r/superprof",
     },
   ];
   
