@@ -5,7 +5,7 @@
     <h1 align="center">PORTFOLIO24</h1>
 </p>
 <p align="center">
-    <em>Empowering innovation with seamless code mastery.</em>
+    <em>A portfolio designed to impress, showcasing your best work.</em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/codeoutin/portfolio24?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -29,20 +29,19 @@
   - [ Installation](#-installation)
   - [ Usage](#-usage)
   - [ Tests](#-tests)
-- [ Project Roadmap](#-project-roadmap)
 - [ Contributing](#-contributing)
 - [ License](#-license)
 - [ Acknowledgments](#-acknowledgments)
 </details>
 <hr>
 
-##  Overview
+## Overview
 
 Portfolio24 focuses on creating a visually engaging portfolio website using Next.js and React components. It integrates Tailwind CSS for styling consistency and Sentry for error monitoring. Key components like Hero, Experience, and Clients showcase work and testimonials. The project enhances user engagement through interactive elements like MagicButton and FloatingNav, emphasizing a captivating user experience. It also features dynamic background effects and immersive animations for a visually appealing presentation. Portfolio24 aims to provide a seamless platform for showcasing projects and enhancing user interaction.
 
 ---
 
-##  Features
+## Features
 
 |    |   Feature         | Description |
 |----|-------------------|---------------------------------------------------------------|
@@ -55,11 +54,11 @@ Portfolio24 focuses on creating a visually engaging portfolio website using Next
 | ⚡️  | **Performance**   | The project focuses on efficiency and performance with optimizations for production builds. It uses Next.js optimizations, lazy loading, and efficient rendering techniques. Performance enhancements like code splitting and image optimizations contribute to a smooth user experience. |
 | 🛡️ | **Security**      | Security measures include integrating Sentry for error monitoring, which enhances data protection and provides insights for debugging. The project follows best practices for secure coding and utilizes modern security tools to ensure data integrity and access control. |
 | 📦 | **Dependencies**  | Key dependencies include react, next, typescript, tailwindcss, and framer-motion among others. These libraries provide essential functionality for frontend development, styling, animations, and error monitoring within the project. |
-| ↗️ | **Redirects**  | You can create redirect pages to avoid long URLs. See more at  |
+| ↗️ | **Redirects**  | You can create redirect pages to avoid long URLs. See more at [redirects.md](https://github.com/codeoutin/portfolio24/blob/master/pages/redirects.md) |
 
 ---
 
-##  Repository Structure
+## Repository Structure
 
 ```sh
 └── portfolio24/
@@ -155,7 +154,7 @@ Portfolio24 focuses on creating a visually engaging portfolio website using Next
 
 ---
 
-##  Modules
+## Modules
 
 <details closed><summary>.</summary>
 
@@ -217,38 +216,6 @@ Portfolio24 focuses on creating a visually engaging portfolio website using Next
 
 </details>
 
-<details closed><summary>app.(legal)</summary>
-
-| File                                                                                      | Summary                                                                                                                                                                                                  |
-| ---                                                                                       | ---                                                                                                                                                                                                      |
-| [layout.tsx](https://github.com/codeoutin/portfolio24/blob/master/app/(legal)/layout.tsx) | Enhances app layout with a MagicButton for seamless navigation, prioritizing user experience; incorporates FaLocationArrow for visual appeal. Promotes engagement by offering a Back to Homepage button. |
-
-</details>
-
-<details closed><summary>app.api.sentry-example-api</summary>
-
-| File                                                                                                 | Summary                                                                                                                |
-| ---                                                                                                  | ---                                                                                                                    |
-| [route.ts](https://github.com/codeoutin/portfolio24/blob/master/app/api/sentry-example-api/route.ts) | Implements a faulty API route within the Sentry example, triggering an intentional error for testing error monitoring. |
-
-</details>
-
-<details closed><summary>app.(legal).datenschutz</summary>
-
-| File                                                                                              | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ---                                                                                               | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| [page.tsx](https://github.com/codeoutin/portfolio24/blob/master/app/(legal)/datenschutz/page.tsx) | The code file `global-error.tsx` in the `app` directory of the `portfolio24` repository plays a crucial role in defining the global error handling strategy for the web application. This file is responsible for rendering a consistent error page layout across the application, ensuring a seamless user experience in case of unexpected errors. By centralizing error handling logic in this file, it helps maintain a unified visual representation of errors and provides a structured way to communicate and address errors encountered throughout the application. This enhances the overall stability and reliability of the application by gracefully managing and displaying errors to users. |
-
-</details>
-
-<details closed><summary>app.(legal).impressum</summary>
-
-| File                                                                                            | Summary                                                                                                      |
-| ---                                                                                             | ---                                                                                                          |
-| [page.tsx](https://github.com/codeoutin/portfolio24/blob/master/app/(legal)/impressum/page.tsx) | Describes the Impressum page with provider details, contact information, company ID, and social media links. |
-
-</details>
-
 <details closed><summary>components.ui</summary>
 
 | File                                                                                                                  | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -268,24 +235,15 @@ Portfolio24 focuses on creating a visually engaging portfolio website using Next
 
 </details>
 
-<details closed><summary>pages.r</summary>
-
-| File                                                                                      | Summary                                                                                                                                                                                                                          |
-| ---                                                                                       | ---                                                                                                                                                                                                                              |
-| [geniaro.ts](https://github.com/codeoutin/portfolio24/blob/master/pages/r/geniaro.ts)     | Implements server-side redirect to an external URL for Geniaro AI templates, enhancing user experience.                                                                                                                          |
-| [superprof.ts](https://github.com/codeoutin/portfolio24/blob/master/pages/r/superprof.ts) | Implements server-side redirection to an external URL for the Superprof page. Renders a component that is never displayed due to the redirection. This file handles redirect logic effectively within the projects architecture. |
-
-</details>
-
 ---
 
-##  Getting Started
+## Getting Started
 
 **System Requirements:**
 
-* **TypeScript**: `version x.y.z`
+* **Node.js**
 
-###  Installation
+### Installation
 
 <h4>From <code>source</code></h4>
 
@@ -305,7 +263,7 @@ Portfolio24 focuses on creating a visually engaging portfolio website using Next
 > $ npm install
 > ```
 
-###  Usage
+### Usage
 
 <h4>From <code>source</code></h4>
 
@@ -314,7 +272,7 @@ Portfolio24 focuses on creating a visually engaging portfolio website using Next
 > $ npm run build && node dist/main.js
 > ```
 
-###  Tests
+### Tests
 
 > Run the test suite using the command below:
 > ```console
@@ -323,15 +281,7 @@ Portfolio24 focuses on creating a visually engaging portfolio website using Next
 
 ---
 
-##  Project Roadmap
-
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
-
----
-
-##  Contributing
+## Contributing
 
 Contributions are welcome! Here are several ways you can contribute:
 
@@ -376,16 +326,14 @@ Contributions are welcome! Here are several ways you can contribute:
 
 ---
 
-##  License
+## License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [BSD-3-Clause](https://opensource.org/license/bsd-3-clause) License. For more details, refer to the [LICENSE](https://github.com/codeoutin/portfolio24/blob/master/LICENSE.txt) file.
 
 ---
 
-##  Acknowledgments
+## Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
-
-[**Return**](#-overview)
+- [Portfolio](https://github.com/adrianhajdin/portfolio)
 
 ---
