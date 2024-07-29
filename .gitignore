@@ -12,6 +12,9 @@
 # redirect pages
 /pages/r
 
+# data
+/data/index.ts
+
 # testing
 /coverage
 

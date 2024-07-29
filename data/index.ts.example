@@ -72,69 +72,57 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "ERP Platform",
-      des: "Developed a custom ERP web application with rich features like logistic tracking, document generation, SAP and more.",
-      img: "/p1.svg",
+      title: "Project 1",
+      des: "Rutrum tristique gravida purus aliquam proin dignissim hendrerit euismod torquent",
+      img: "/b1.svg",
       iconLists: ["/laravel.svg", "/vue.svg", "/sass.svg", "/aws.svg", "/sap.svg"],
-      link: "https://butlers.com",
+      link: "/r/project1",
     },
     {
       id: 2,
-      title: "Advertisement Booking Platform",
-      des: "Built and Launched a multilanguage advertising platform from scratch with custom live maps, bookings, payment integrations and more.",
-      img: "/p2.svg",
+      title: "Project 2",
+      des: "Maximus mi convallis sodales posuere habitant nisl pellentesque ligula sagittis",
+      img: "/b1.svg",
       iconLists: ["/laravel.svg", "/vue.svg", "/gitlab.svg", "/aws.svg", "/mapbox.svg"],
-      link: "https://pwm.com",
+      link: "/r/project2",
     },
     {
       id: 3,
-      title: "AI Content Creator",
-      des: "A Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
+      title: "Project 3",
+      des: "Mus senectus nostra vel sem nisl duis aliquet dictum felis",
+      img: "/b1.svg",
       iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg", "/mong.svg", "/c.svg"],
-      link: "/r/geniaro",
+      link: "/r/project3",
     },
     {
       id: 4,
-      title: "Mentor Program",
-      des: "I'm teaching programming languages, web development and other skills to beginners and professionals",
-      img: "/p4.svg",
+      title: "Project 4",
+      des: "Platea hac condimentum torquent dis lacus velit quam donec sodales",
+      img: "/b1.svg",
       iconLists: ["/re.svg", "/laravel.svg", "/js.svg", "/ts.svg", "/vue.svg", "/git.svg"],
-      link: "/r/superprof",
+      link: "/r/project4",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Ich möchte dir von Herzen für deine unermüdliche Hingabe und den Einsatz im vergangenen Jahr danken. Deine Leidenschaft und Professionalität haben das Projekt zu dem gemacht, was es heute ist - ein Erfolg, auf den wir stolz sein können. Jeder einzelne Beitrag, jede Idee und jede Anstrengung hat einen bedeutenden Unterschied gemacht. Danke, dass du deine Fähigkeiten und deine Zeit in dieses Projekt investiert hast, und das in so vielfältigen Bereichen. Auf ein weiteres großartiges Jahr!",
-      name: "Lars",
-      title: "National Sales Manager @ PWM",
+        "Volutpat nibh libero praesent elit rutrum est dolor arcu venenatis donec varius ac laoreet a augue justo pretium duis at facilisi himenaeos hendrerit efficitur quis feugiat maximus litora vehicula commodo",
+      name: "Mr. Kayami",
+      title: "National Sales Manager",
     },
     {
       quote:
-        "Patricks technical expertise and innovative solutions transformed our operations. His leadership in developing custom web applications and integrating advanced technologies has been outstanding. Patricks commitment to excellence makes him a top-tier professional in the industry. Highly recommended!",
-      name: "Alexander F.",
+        "Lobortis cubilia aenean suscipit velit sed luctus dis posuere ante cras at ultricies odio penatibus mattis tristique donec aliquam eu potenti netus hendrerit sapien facilisi condimentum sem sagittis inceptos aliquet",
+      name: "Mrs. Kaya",
       title: "Founder / CEO",
     },
     {
       quote:
-        "Perfekt! Der Unterricht von Patrick war sehr wertvoll für mich, denn hätte ich versucht mir den Stoff selber beizubringen, wäre das nicht halb so effektiv gewesen.",
-      name: "Nils",
+        "Nullam iaculis conubia hendrerit venenatis mollis mus magnis purus taciti nascetur amet per vehicula dui vivamus eu feugiat rutrum quam torquent facilisi vitae diam rhoncus volutpat dapibus habitasse finibus fusce",
+      name: "Mr. Hikari",
       title: "Student",
-    },
-    {
-      quote:
-        "Ich habe im „Park + Cruise“ Projekt über 4 Monate in der Rolle des technischen Product Owners mit Patrick zusammengearbeitet. Aus dieser Zeit ist mir vor allem in Erinnerung geblieben wie Patrick hochmotiviert an neue und unbekannte Themengebiete und Fragestellungen herangeht und zu jeder Diskussion einen wertvollen Beitrag leistet. Fachlich waren wir immer sehr zufrieden mit den Arbeitsergebnissen. Darüber hinaus war es eine Freude mit Patrick zusammenzuarbeiten, da er sehr hilfsbereit, offen und unkompliziert in der Kommunikation ist.",
-      name: "Katharina",
-      title: "Technical Product Owner @ K+N",
-    },
-    {
-      quote:
-        "Dass Patrick in unserem Projektteam für „Park + Cruise“ gelandet ist, war für mich als Product Owner Operative ein einziger Glücksgriff. Er hat sich problemlos sowohl in die Endnutzer- als auch in die Anwenderperspektive versetzt und damit eine sehr repräsentative und intuitive Webseite und ein funktionales und nutzerfreundliches Backend entwickelt. Das zuvor unbekannte Fachgebiet Kreuzfahrtparken hat er sich durch Site-Inspections und gezielte Nachfragen hochmotiviert erarbeitet, hat proaktiv Lösungsansätze abseits bekannter Pfade eingebracht und mich mit immer neuen Ideen und Verbesserungen beeindruckt.",
-      name: "Laura",
-      title: "Product Owner Operative @ K+N",
-    },
+    }
   ];
   
   export const companies = [

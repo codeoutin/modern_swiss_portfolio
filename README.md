@@ -96,55 +96,6 @@ Portfolio24 focuses on creating a visually engaging portfolio website using Next
     │   └── redirects.md
     ├── postcss.config.mjs
     ├── public
-    │   ├── arrow.svg
-    │   ├── aws.svg
-    │   ├── b1.svg
-    │   ├── b4.svg
-    │   ├── b5.svg
-    │   ├── bg.png
-    │   ├── butlers.svg
-    │   ├── butlersName.svg
-    │   ├── c.svg
-    │   ├── closed.svg
-    │   ├── closedName.svg
-    │   ├── confetti.gif
-    │   ├── exp1.svg
-    │   ├── exp2.svg
-    │   ├── exp3.svg
-    │   ├── exp4.svg
-    │   ├── footer-grid.svg
-    │   ├── git.svg
-    │   ├── gitlab.svg
-    │   ├── grid.svg
-    │   ├── h24.svg
-    │   ├── h24Name.svg
-    │   ├── insta.svg
-    │   ├── js.svg
-    │   ├── kn.svg
-    │   ├── knName.svg
-    │   ├── laravel.svg
-    │   ├── link.svg
-    │   ├── mapbox.svg
-    │   ├── mong.svg
-    │   ├── next.svg
-    │   ├── p1.svg
-    │   ├── p2.svg
-    │   ├── p3.svg
-    │   ├── p4.svg
-    │   ├── profile.svg
-    │   ├── re.svg
-    │   ├── sap.svg
-    │   ├── sass.svg
-    │   ├── spring.svg
-    │   ├── stream.svg
-    │   ├── streamName.svg
-    │   ├── tail.svg
-    │   ├── telekom.svg
-    │   ├── telekomName.svg
-    │   ├── ts.svg
-    │   ├── twit.svg
-    │   ├── vue.svg
-    │   └── wha.svg
     ├── sentry.client.config.ts
     ├── sentry.edge.config.ts
     ├── sentry.server.config.ts
@@ -261,6 +212,12 @@ Portfolio24 focuses on creating a visually engaging portfolio website using Next
 > 3. Install the dependencies:
 > ```console
 > $ npm install
+> ```
+>
+> 4. Copy example files (and fill in your data)
+> ```console
+> $ cp .env.local.example .env.local
+> $ cp data/index.ts.example data/index.ts
 > ```
 
 ### Usage
