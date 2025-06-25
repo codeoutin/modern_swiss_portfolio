@@ -2,11 +2,13 @@ import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
+import Services from "@/components/Services";
 import Clients from "@/components/Clients";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -16,10 +18,12 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <Services />
         <RecentProjects />
         <Clients />
         <Experience />
         <Approach />
+        <Contact />
         <Footer />
       </div>
     </main>

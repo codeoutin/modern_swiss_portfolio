@@ -1,4 +1,4 @@
-Copyright (c) 2024, Patrick Steger
+Copyright (c) 2025, Patrick Steger
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

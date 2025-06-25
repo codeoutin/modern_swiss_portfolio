@@ -30,24 +30,34 @@ const Hero = () => {
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw]
                 flex flex-col items-center justify-center'>
                     <h2 className='uppercase tracking-widest text-xs
-                        text-center text-blue-100 max-w-80'>Bridging Technology, Business and User Experience</h2>
+                        text-center text-blue-100 max-w-80'>Senior Full-Stack Developer • CHF 150/h • Zürich</h2>
 
                     <TextGenerateEffect 
                         className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                        words="Crafting Innovative Software Solutions for a Digital World" />
+                        words="Professionelle Softwareentwicklung für Schweizer Unternehmen" />
                     
                     <p className='text-center tracking-wider
                     mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hi, I&apos;m Patrick, a Software Engineer based in Berlin.
+                        Patrick Steger • Senior Developer bei Sly AG • Verfügbar 1-2 Tage/Woche
                     </p>
 
-                    <a href="#about">
-                        <MagicButton
-                            title="Show my work"
-                            icon={<FaLocationArrow />}
-                            position='right'
-                        />
-                    </a>
+                    <div className='flex flex-col sm:flex-row gap-4 items-center'>
+                        <a href="#services">
+                            <MagicButton
+                                title="Services & Preise"
+                                icon={<FaLocationArrow />}
+                                position='right'
+                            />
+                        </a>
+                        <a href="#contact">
+                            <MagicButton
+                                title="Kostenloses Beratungsgespräch"
+                                icon={<FaLocationArrow />}
+                                position='right'
+                                otherClasses='!bg-gradient-to-r !from-blue-600 !to-purple-600'
+                            />
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

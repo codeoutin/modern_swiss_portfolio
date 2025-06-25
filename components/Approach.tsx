@@ -8,12 +8,12 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Mein <span className="text-purple">Vorgehen</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Strategy"
-          description="We'll collaborate to map out your business goals, target audience, and key functionalities. We'll discuss things like site structure, navigation and content requirements."
+          title="Planung & Strategie"
+          description="Gemeinsam definieren wir Ihre Geschäftsziele, Zielgruppe und Kernfunktionalitäten. Wir besprechen Systemarchitektur, Navigation und technische Anforderungen."
           icon={<AceternityIcon order="Phase 1" />}>
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -21,8 +21,8 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          description="Once we agree on the plan, I dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          title="Entwicklung & Updates"
+          description="Nach der Planungsphase beginne ich mit der Programmierung. Von ersten Prototypen bis zum finalen Code halten ich Sie kontinuierlich über den Fortschritt auf dem Laufenden."
           icon={<AceternityIcon order="Phase 2" />}>
           <CanvasRevealEffect
             animationSpeed={3}
@@ -35,8 +35,8 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Launch"
-          description="This is where the magic happens! Based on the approved architecture, I'll translate everything into functional code, building your software from the ground up."
+          title="Testing & Launch"
+          description="Basierend auf der genehmigten Architektur entwickle ich Ihre Software von Grund auf. Nach ausgiebigen Tests erfolgt der professionelle Launch Ihres Systems."
           icon={<AceternityIcon order="Phase 3" />}>
           <CanvasRevealEffect
             animationSpeed={3}
